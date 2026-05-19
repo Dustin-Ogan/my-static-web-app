@@ -1,4 +1,5 @@
 import "./App.css";
+import dustinHeadshot from "./assets/dustin-headshot.jpg";
 
 function App() {
   return (
@@ -24,50 +25,43 @@ function App() {
           <p className="eyebrow">Azure • Load Testing • Diagnostics • SRE Readiness</p>
 
           <h1>
-            Build confidence in your systems before your users find the cracks.
+            Turn performance testing into reliability.
           </h1>
 
           <p className="hero-subtitle">
-            I help teams turn performance testing, observability, and reliability
-            signals into practical engineering decisions — not just test reports.
-          </p>
+            I help teams design practical load tests, interpret Azure diagnostics, and
+  translate system behavior into clear engineering recommendations.
+         </p>
 
           <div className="hero-actions">
             <a className="button primary" href="#contact">
-              Start a Conversation
+              Discuss A Reliability Assessment
             </a>
             <a className="button secondary" href="#demos">
-              View Proof-of-Concepts
+              View Demo Focus Areas
             </a>
           </div>
         </div>
 
         <div className="hero-card">
-          <div className="metric-card large">
-            <span className="metric-label">Demo Focus</span>
-            <strong>Azure Load Testing</strong>
-            <p>Controlled load, diagnostics, bottleneck analysis, and client-ready findings.</p>
-          </div>
+<div className="hero-photo-panel">
+  <img
+    src={dustinHeadshot}
+    alt="Dustin Ogan"
+    className="hero-photo"
+  />
 
-          <div className="mini-grid">
-            <div className="metric-card">
-              <span>p95 latency</span>
-              <strong>Tracked</strong>
-            </div>
-            <div className="metric-card">
-              <span>Errors</span>
-              <strong>Correlated</strong>
-            </div>
-            <div className="metric-card">
-              <span>Cost</span>
-              <strong>Guarded</strong>
-            </div>
-            <div className="metric-card">
-              <span>Signals</span>
-              <strong>Actionable</strong>
-            </div>
-          </div>
-        </div>
+  <div className="hero-photo-caption">
+    <span>Independent Consultant</span>
+    <strong>Dustin Ogan</strong>
+    <p>
+      Senior QA Architect focused on performance testing, Azure diagnostics,
+      and reliability-focused engineering practices.
+    </p>
+  </div>
+</div>
+
+</div>
       </section>
 
       <section className="section" id="services">
